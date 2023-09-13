@@ -1,0 +1,66 @@
+
+.home-container{
+    margin-top: 5rem;
+}
+.add-filter-container{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-sbmt{
+    margin-left: 1rem;
+    margin-top: 2rem ;
+}
+
+.input-error {
+    border: 2px solid red;
+}
+.alert-success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(216, 253, 161);
+    color: black;
+    border-radius: 4px;
+    animation: fadeOut 3s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none; /* Hide the element when the animation is complete */
+    }
+}
+
+
+
+
+
+
+/* 
+ input:invalid {
+    border: 2px solid red; 
+    animation: shake 0.5s;
+    animation-iteration-count: 3; 
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+}  */
