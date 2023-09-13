@@ -8,6 +8,7 @@
 <div class="container home-container shadow p-3 mb-5 bg-body-tertiary rounded px-5">
     <h1 class="text-center">Students list</h1>
     <h1 class="text-center">Students list</h1>
+
     <div class="add-filter-container">
         <div>
             <a type="button" href="{{ route('createView')}}" class="btn btn-success mt-5">Add student</a>
